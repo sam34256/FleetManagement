@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FleetManagement:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FleetManagement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FleetManagement-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FleetManagement:war exploded" />
+    </root>
+  </artifact>
+</component>
